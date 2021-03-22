@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/sms_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openSMS"
+        android:text="@string/button_sms"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/phone_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openPhone"
+        android:text="@string/button_phone"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <Button
+        android:id="@+id/web_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openWeb"
+        android:text="@string/button_web"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openMap"
+        android:text="@string/button_map"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openShare"
+        android:text="@string/button_share"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/new_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openNewActivity"
+        android:text="@string/button_new_activity"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+</LinearLayout>
